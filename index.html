@@ -262,9 +262,6 @@
 
 <div class="spacer-1p"></div>  
 
-    
-
-
 <table style="width:100%; border:0; border-spacing:0; margin:auto;">
   <tbody>
     <tr>
@@ -305,21 +302,16 @@
     </tr>
     <tr>
       <td>
+          The same physical distance produces different retinal disparities depending on whether it is near (blue) or far (red). This leads to the assumption that there is a mechanism ("depth constancy") that compensates for the change in disparities with viewing distance, so we see a roughly constant separation in depth.
         <p>
-          If the Un-Hollow Face Illusion suggests that 3D Shape is governed solely by stereo vision, then the next question is how the visual system extracts 3D shape from disparity. Traditionally, it is thought that retinal disparities are "scaled" to transform them from retinal to world coordinates. 
-        </p><p>
-          However, I argue there is no "depth constancy" (scaling into world coordinates):
-        </p><p>
-          <a href="https://osf.io/preprints/psyarxiv/e5cuh_v1">
-            Linton, P. (2024). Linton Stereo Illusion. <i>Preprint</i>
-            </a>
-            </p>
+          <img style="width:100%;" src="Stereo0.svg" alt="Binocular disparities fall off with viewing distance">
+        </p><p></p>     
+          However, I argue there is no such "depth constancy" mechanism.
+        </p>
       </td>
     </tr>
   </tbody>
 </table>
-
-<div class="spacer-1p"></div>
   
 <table style="width:100%; border:0; border-spacing:0; margin:auto;">
   <tbody>
@@ -332,22 +324,33 @@
     <tr>
       <td style="text-align:left; width:100%;">
         <p>
-          Traditional accounts ask participants to make evaluative depth judgments. I simplify the question by testing which of two conditions appears to move rigidly in depth (with angular size controlled): a stimulus moving in depth with contant physical separation, or a stimulus moving in depth with contant disparity?
-        </p>
+          The question is when do two circles (a large back cirlce and a small front circle) appear to move rigidly together in depth (when their angular size controlled)? When the physical separation between the circles is kept constant (left) or when the retinal disparities between the circles are kept constant (right):
       
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/krAfioCxJVQ?playlist=krAfioCxJVQ&loop=1" allowfullscreen></iframe>
-        </div>
+          <img style="width:100%;" src="Stereo1.svg" alt="Linton Stereo Illusion">
       
-        <p>
-          As you see below, the answer is "constant disparity" (right), suggesting that percieved stereo depth is simply a function of disparities on the retina.
-        </p>
-      
-        <div class="video-container">
-          <iframe src="https://www.youtube.com/embed/18ONHln7mkI?playlist=18ONHln7mkI&loop=1" allowfullscreen></iframe>
-        </div>
-      
+          When we keep the physical distance between the circles constant, the circles don't look as if the separation between them is constant, but instead changes:
 
+          <img style="width:100%;" src="Stereo2.svg" alt="Triangulation Condition">
+
+          Whilst when we keep the disparities fixed, the circles appear to move rigidly together, even though the are actually physically compressing: 
+
+          <img style="width:100%;" src="Stereo3.svg" alt="Minimal Model Condition">
+
+          You can try the Linton Stereo Illusion for yourself with a pair of red-blue glasses:
+
+        <div class="video-container">
+      <iframe src="stereo-circles.html" title="Stereo Depth Animation"></iframe>
+        </div>
+
+        <p>
+          With this version specifically optimized for red-blue glasses:
+        </p>
+        
+        <div class="video-container">
+      <iframe src="stereo-circles2.html" title="Stereo Depth Animation"></iframe>
+        </div>
+        
+      </p>
       </td>
     </tr>
   </tbody>
@@ -357,9 +360,7 @@
   <tbody>
     <tr>
       <td>
-        <p>
-          Presented at Demo Night at the Vision Sciences Society (VSS)(2024) and European Conference on Visual Perception (ECVP)(2024).
-        </p>
+          Originally presented at the Vision Sciences Society (VSS)(2024) Demo Night and European Conference on Visual Perception (ECVP)(2024) Demo Night.
         <p>
           <img style="width:100%;" src="VSS2024.jpg" alt="Kriegeskorte Lab experience unhollow face">
         </p>
@@ -368,7 +369,63 @@
   </tbody>
 </table>
 
+<table style="width:100%; border:0; border-spacing:0; margin:auto;">
+  <tbody>
+    <tr>
+      <td style="text-align:center; width:100%;">
+          <b>FURTHER READING</b>
+      </td>
+    </tr>
+    </tbody>
+</table>
 
+<div class="spacer-1p"></div>
+
+<table style="width:100%; border:0; border-spacing:0; margin:auto;">
+  <tbody>
+    <tr>
+      <td style="width:20%; vertical-align:top;">
+          <a href="https://arxiv.org/abs/2408.00770">
+        <img style="width:100%;border: 1px solid #000" src="Stereo.jpeg" alt="Preprint"> </a>
+    </td>
+    <td style="width:4%; vertical-align:top;">
+    </td>
+      <td style="width:76%; vertical-align:top;">
+        <a href="https://arxiv.org/abs/2408.00770">
+          Linton, P. (2024). Linton Stereo Illusion. <i>Under Review</i>
+          </a>
+        <p>
+          Explains the Linton Stereo Illusion and justifies it as a valid test for stereo vision in general, not just in the laboratory.
+        <p></p>
+          
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="spacer-1p"></div>
+
+<table style="width:100%; border:0; border-spacing:0; margin:auto;">
+  <tbody>
+    <tr>
+      <td style="width:20%; vertical-align:top;">
+          <a href="https://arxiv.org/abs/2410.19740">
+        <img style="width:100%;border: 1px solid #000" src="Johnston.jpeg" alt="Preprint"> </a>
+    </td>
+    <td style="width:4%; vertical-align:top;">
+    </td>
+      <td style="width:76%; vertical-align:top;">
+        <a href="https://arxiv.org/abs/2410.19740">
+          Linton, P. (2024). Linton Stereo Illusion: Response on Johnston (1991). <i>ArXiv</i>
+          </a>
+        <p>
+          Explains why previous accounts of the failures of depth constancy should predict the opposite distortions from the ones found in the Linton Stereo Illusion. 
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 <div class="spacer-1p"></div>
 
